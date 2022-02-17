@@ -6,7 +6,6 @@
                              (coursesChanged)="reloadCourses()">
           </courses-card-list>
         </mat-tab>
-
         <mat-tab label="Advanced">
           <courses-card-list [courses]="advancedCourses$ | async"
                              (coursesChanged)="reloadCourses()">
